@@ -7,22 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5905C7822852F9CB003C6CFD /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5905C77F2852F9A1003C6CFD /* UICKeyChainStore.m */; };
+		5905C7832852F9CB003C6CFD /* UICKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5905C77E2852F9A1003C6CFD /* UICKeyChainStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5905C7852852F9E1003C6CFD /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "UICKeyChainStore::UICKeyChainStore::Product" /* UICKeyChainStore.framework */; };
+		5905C7862852F9E1003C6CFD /* UICKeyChainStore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = "UICKeyChainStore::UICKeyChainStore::Product" /* UICKeyChainStore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		OBJ_36 /* FCUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* FCUUID.m */; };
 		OBJ_37 /* UIDevice+FCUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* UIDevice+FCUUID.m */; };
 		OBJ_39 /* FCUUID.m in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* FCUUID.m */; settings = {ATTRIBUTES = (Public, ); }; };
 		OBJ_40 /* UIDevice+FCUUID.m in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* UIDevice+FCUUID.m */; settings = {ATTRIBUTES = (Public, ); }; };
 		OBJ_41 /* FCUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* FCUUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		OBJ_42 /* UIDevice+FCUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* UIDevice+FCUUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		OBJ_44 /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "UICKeyChainStore::UICKeyChainStore::Product" /* UICKeyChainStore.framework */; };
 		OBJ_52 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_57 /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* UICKeyChainStore.m */; };
-		OBJ_59 /* UICKeyChainStore.m in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* UICKeyChainStore.m */; settings = {ATTRIBUTES = (Public, ); }; };
-		OBJ_60 /* UICKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* UICKeyChainStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		OBJ_67 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8122E7FF26EF413800F179DF /* PBXContainerItemProxy */ = {
+		5905C7872852F9E1003C6CFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -31,7 +30,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5905C7892852F9E1003C6CFD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5905C7862852F9E1003C6CFD /* UICKeyChainStore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5905C77E2852F9A1003C6CFD /* UICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICKeyChainStore.h; sourceTree = "<group>"; };
+		5905C77F2852F9A1003C6CFD /* UICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICKeyChainStore.m; sourceTree = "<group>"; };
 		"FCUUID::FCUUID::Product" /* FCUUID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FCUUID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* FCUUID.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FCUUID.podspec; sourceTree = "<group>"; };
 		OBJ_11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -42,9 +57,6 @@
 		OBJ_17 /* UIDevice+FCUUID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+FCUUID.m"; sourceTree = "<group>"; };
 		OBJ_18 /* FCUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCUUID.h; sourceTree = "<group>"; };
 		OBJ_19 /* UIDevice+FCUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FCUUID.h"; sourceTree = "<group>"; };
-		OBJ_24 /* UICKeyChainStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICKeyChainStore.m; sourceTree = "<group>"; };
-		OBJ_25 /* UICKeyChainStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICKeyChainStore.h; sourceTree = "<group>"; };
-		OBJ_26 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/alejandro.ruperez/Projects/FCUUID/.build/checkouts/UICKeyChainStore/Package.swift; sourceTree = "<group>"; };
 		OBJ_30 /* FCUUID */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FCUUID; sourceTree = SOURCE_ROOT; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -56,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_44 /* UICKeyChainStore.framework in Frameworks */,
+				5905C7852852F9E1003C6CFD /* UICKeyChainStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,13 +82,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5905C7842852F9E1003C6CFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		OBJ_15 /* FCUUID */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_16 /* FCUUID.m */,
-				OBJ_17 /* UIDevice+FCUUID.m */,
 				OBJ_18 /* FCUUID.h */,
+				OBJ_16 /* FCUUID.m */,
 				OBJ_19 /* UIDevice+FCUUID.h */,
+				OBJ_17 /* UIDevice+FCUUID.m */,
 			);
 			path = FCUUID;
 			sourceTree = "<group>";
@@ -91,29 +110,11 @@
 		OBJ_21 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_22 /* UICKeyChainStore 2.2.1 */,
+				5905C77E2852F9A1003C6CFD /* UICKeyChainStore.h */,
+				5905C77F2852F9A1003C6CFD /* UICKeyChainStore.m */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
-		};
-		OBJ_22 /* UICKeyChainStore 2.2.1 */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_23 /* UICKeyChainStore */,
-				OBJ_26 /* Package.swift */,
-			);
-			name = "UICKeyChainStore 2.2.1";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_23 /* UICKeyChainStore */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_24 /* UICKeyChainStore.m */,
-				OBJ_25 /* UICKeyChainStore.h */,
-			);
-			name = UICKeyChainStore;
-			path = .build/checkouts/UICKeyChainStore/Lib/UICKeyChainStore;
-			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_27 /* Products */ = {
 			isa = PBXGroup;
@@ -124,7 +125,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -133,8 +134,8 @@
 				OBJ_21 /* Dependencies */,
 				OBJ_27 /* Products */,
 				OBJ_30 /* FCUUID */,
+				5905C7842852F9E1003C6CFD /* Frameworks */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -177,8 +178,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_59 /* UICKeyChainStore.m in Headers */,
-				OBJ_60 /* UICKeyChainStore.h in Headers */,
+				5905C7832852F9CB003C6CFD /* UICKeyChainStore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,11 +192,12 @@
 				OBJ_35 /* Sources */,
 				OBJ_38 /* Headers */,
 				OBJ_43 /* Frameworks */,
+				5905C7892852F9E1003C6CFD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_45 /* PBXTargetDependency */,
+				5905C7882852F9E1003C6CFD /* PBXTargetDependency */,
 			);
 			name = FCUUID;
 			productName = FCUUID;
@@ -264,7 +265,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,7 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_57 /* UICKeyChainStore.m in Sources */,
+				5905C7822852F9CB003C6CFD /* UICKeyChainStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,17 +308,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_67 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_45 /* PBXTargetDependency */ = {
+		5905C7882852F9E1003C6CFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "UICKeyChainStore::UICKeyChainStore" /* UICKeyChainStore */;
-			targetProxy = 8122E7FF26EF413800F179DF /* PBXContainerItemProxy */;
+			targetProxy = 5905C7872852F9E1003C6CFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
